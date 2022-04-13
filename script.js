@@ -25,4 +25,14 @@ function descendingNumber(a, b) {
 }
 descendingNumber(10, 1);
 
+console.log('-------------- # 5 Часы на экране - Первый вариант')
+
+const displayTime = document.getElementById('display-time');
+  
+function getCurrentTimeString() {
+   return new Date().toTimeString().replace(/ .*/, '');
+}
+  
+setInterval(() => displayTime.innerHTML = getCurrentTimeString(),1000);
+
 

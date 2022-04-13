@@ -1,0 +1,10 @@
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.time-style{
+    font-size: 88px;
+    line-height: 61px;
+    font-weight: bold;
+}
